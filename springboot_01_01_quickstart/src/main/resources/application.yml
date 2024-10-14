@@ -1,0 +1,51 @@
+#这里的配置跟使用的技术即对应的starter有关
+#当三种配置文件格式都存在，
+#不相同属性都留下来，相同属性会根据优先级进行覆盖
+#properties>yml>yaml
+#服务器端口配置
+#可以理解为有一个server对象，有port属性
+server:
+  port: 80
+
+country:
+  china
+
+user:
+  name: jack
+  age: 16
+
+users:
+  -
+    name: marry
+    age: 18
+  -
+    name: lisi
+    age: 20
+
+#数组
+likes:
+  - game
+  - music
+  - sleep
+
+baseDir: c:\windows
+#tempDir: c:\windows\temp 可以使用如下方式
+tempDir: ${baseDir}\temp
+
+#支持转义字符,需要加引号
+tempDir1: "${baseDir}\temp\t\t\t\t "
+
+
+#创建类，封装下面数据
+#告诉spring加载信息，由spring加载数据到对象中
+#使用时从spring中直接获取信息
+person:
+  name: xiaohu
+  age: 25
+  gender: male
+
+
+
+
+
+
