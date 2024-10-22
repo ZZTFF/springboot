@@ -7,6 +7,7 @@ import com.itheima.domain.User;
 import java.util.List;
 
 //业务层接口
+//下面的方法名是自定义
 public interface UserService {
     Boolean save(User user);
     Boolean update(User user);
@@ -18,7 +19,5 @@ public interface UserService {
     List<User> getAll();
 
     IPage<User> getPage(int currentPage, int pagesize);
-
-
 
 }

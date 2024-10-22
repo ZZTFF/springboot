@@ -13,6 +13,7 @@ public class UserServiceTest {
     private UserService userService;
     @Test
     void testGetById(){
+//        业务层得输出
         System.out.println(userService.getById(3));
     }
 
@@ -22,7 +23,6 @@ public class UserServiceTest {
         user.setUsername("jack");
         user.setPassword("111111");
         user.setGender("男");
-        user.setPassword("西安");
         userService.save(user);
     }
 
