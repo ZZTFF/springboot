@@ -1,6 +1,6 @@
 package com.itheima;
 
-import com.itheima.dao.BrandDao;
+import com.itheima.mapper.UserDao;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,11 +9,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class Springboot08MybatisPlusApplicationTests {
 
     @Autowired
-    private BrandDao brandDao;
+    private UserDao userDao;
 
     @Test
     void contextLoads() {
-        System.out.println(brandDao.selectById(3));
+        System.out.println(userDao.selectById(1));
     }
 
 }

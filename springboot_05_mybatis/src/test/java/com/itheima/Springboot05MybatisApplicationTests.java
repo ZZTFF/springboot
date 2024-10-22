@@ -1,6 +1,6 @@
 package com.itheima;
 
-import com.itheima.dao.BrandDao;
+import com.itheima.mapper.BrandDao;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

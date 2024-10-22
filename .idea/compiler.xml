@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="springboot_08_mybatis_plus" />
         <module name="springboot_01_02" />
         <module name="springboot_05_mybatis" />
+        <module name="springboot_9_ssmp" />
         <module name="springboot_01_01_quickstart" />
         <module name="springboot_0x_xxx" />
         <module name="springboot_06_mybatis_plus" />
@@ -22,6 +24,7 @@
       <module name="springboot_07_mybatis_plus" target="1.8" />
       <module name="springboot_08_mybatis_plus" target="1.8" />
       <module name="springboot_0x_xxx" target="1.8" />
+      <module name="springboot_9_ssmp" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
