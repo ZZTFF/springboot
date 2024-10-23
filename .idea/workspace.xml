@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9ed4ea6-96dc-4201-8f46-8c82720f4e7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/controller/UserController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/controller/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/service/impl/UserServiceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/test/java/com/itheima/service/UserServiceTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/src/test/java/com/itheima/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/test/java/com/itheima/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/src/test/java/com/itheima/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/test/java/com/itheima/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/target/classes/com/itheima/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/target/test-classes/com/itheima/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/target/test-classes/com/itheima/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/target/test-classes/com/itheima/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/target/test-classes/com/itheima/service/UserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/Springboot9SsmpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_9_ssmp/src/main/java/com/itheima/Springboot9SsmpApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "editor.preferences.import",
-    "spring.configuration.checksum": "b10f14d9de91dbccc3e98d9ffe9d9a40",
+    "spring.configuration.checksum": "ec2e80ad809b5fcb80018aef2a6f21f6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -186,6 +174,7 @@
       <workItem from="1729068885152" duration="644000" />
       <workItem from="1729149619712" duration="16679000" />
       <workItem from="1729580935080" duration="13311000" />
+      <workItem from="1729650112566" duration="15000" />
     </task>
     <servers />
   </component>
