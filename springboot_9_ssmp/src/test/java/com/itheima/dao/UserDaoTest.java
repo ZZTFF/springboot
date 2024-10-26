@@ -31,7 +31,7 @@ public class UserDaoTest {
     @Test
     void testUpdate(){
         User user = new User();
-        user.setId(4);
+        user.setId(7);
         user.setUsername("jack");
         user.setPassword("111111");
         user.setGender("男");
@@ -54,7 +54,8 @@ public class UserDaoTest {
     void testGetPage(){
 //        1.定义分页对象，当前第几页，每页多少个数据
 //        2.定义分页拦截器，固定格式，内部是动态拼写mysql语句
-        IPage page = new Page(4, 1);
+//        Page两个参数分别是当前页码，和每页数据条数
+        IPage page = new Page(4, 2);
         userDao.selectPage(page, null);
         System.out.println(page.getPages());
         System.out.println(page.getCurrent());
@@ -66,18 +67,18 @@ public class UserDaoTest {
     @Test
     void testGetBy(){
         QueryWrapper<User> qw = new QueryWrapper<>();
-//        qw.like("password", "3");
-        qw.ne("username", "张三");
+        qw.like("password", "3");
+//        qw.ne("username", "张三");
         userDao.selectList(qw);
     }
 
     @Test
     void testGetBy2(){
 //            使用Lambda就可以防止属性名书写错误
-        String password  = "3";
+        String password  = "";
 //当name传递进来的是null时，使用lqw.like的sql语句为%null%
         LambdaQueryWrapper<User> lqw = new LambdaQueryWrapper<>();
-        lqw.like(password != null,User::getPassword, "3");
+        lqw.like(password != null,User::getPassword, "4");
         userDao.selectList(lqw);
     }
 

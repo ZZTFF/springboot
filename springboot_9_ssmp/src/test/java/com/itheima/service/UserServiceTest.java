@@ -31,7 +31,7 @@ public class UserServiceTest {
         User user = new User();
         user.setId(4);
         user.setUsername("jack");
-        user.setPassword("111111");
+        user.setPassword("2222222");
         user.setGender("男");
         user.setAddr("西安");
         userService.update(user);

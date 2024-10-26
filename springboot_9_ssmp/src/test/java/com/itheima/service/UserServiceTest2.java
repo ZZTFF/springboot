@@ -9,7 +9,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class UserServiceTest2 {
-
     @Autowired
     private IUserService userService;
     @Test
@@ -22,7 +21,7 @@ public class UserServiceTest2 {
     void Save(){
         User user = new User();
         user.setUsername("jack");
-        user.setPassword("111111");
+        user.setPassword("333333");
         user.setGender("男");
         userService.save(user);
     }
@@ -30,9 +29,9 @@ public class UserServiceTest2 {
     @Test
     void testUpdate(){
         User user = new User();
-        user.setId(4);
+        user.setId(3);
         user.setUsername("jack");
-        user.setPassword("111111");
+        user.setPassword("2222222");
         user.setGender("男");
         user.setAddr("西安");
         userService.updateById(user);

@@ -45,9 +45,6 @@ public class UserServiceImpl2 implements UserService {
     @Override
     public IPage<User> getPage(int currentPage, int pagesize) {
         IPage page = new Page(currentPage, pagesize);
-
         return userDao.selectPage(page, null);
     }
-
-
 }

@@ -8,5 +8,6 @@ import com.itheima.domain.User;
 public interface IUserService extends IService<User> {
 //    下面可以自己新加方法
 
+    IPage<User> getPage(int currentPage, int pagesize, User user);
     IPage<User> getPage(int currentPage, int pagesize);
 }

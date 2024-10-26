@@ -7,6 +7,7 @@ public class R {
     private Boolean flag;
     private Object data;
 
+    private String msg;
     public R(){}
 
     public R(Boolean flag){
@@ -17,4 +18,10 @@ public class R {
         this.flag = flag;
         this.data = data;
     }
+
+    public R(Boolean flag, String msg){
+        this.flag = false;
+        this.msg = msg;
+    }
+
 }
