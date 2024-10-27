@@ -24,6 +24,8 @@ public class UserServiceTest2 {
         user.setPassword("333333");
         user.setGender("男");
         userService.save(user);
+//        boolean flag = userService.save(user);
+//        System.out.println(flag);
     }
 
     @Test
@@ -34,7 +36,7 @@ public class UserServiceTest2 {
         user.setPassword("2222222");
         user.setGender("男");
         user.setAddr("西安");
-        userService.updateById(user);
+        userService.updateById(user);//返回类型是boolean
     }
 
     @Test
@@ -51,13 +53,22 @@ public class UserServiceTest2 {
     void testGetPage(){
 //        1.定义分页对象，当前第几页，每页多少个数据
 //        2.定义分页拦截器，固定格式，内部是动态拼写mysql语句
-        IPage<User> page = new Page<User>(1, 2);
-        userService.page(page);
+//        IPage<User> page = new Page<User>(1, 2);
+//        userService.page(page);
+//        System.out.println(page.getPages());
+//        System.out.println(page.getCurrent());
+//        System.out.println(page.getSize());
+//        System.out.println(page.getTotal());
+//        System.out.println(page.getRecords());
+
+        userService.getPage(1,2);
+        IPage page = userService.getPage(1,2);
         System.out.println(page.getPages());
         System.out.println(page.getCurrent());
         System.out.println(page.getSize());
         System.out.println(page.getTotal());
         System.out.println(page.getRecords());
+
     }
 
 
